@@ -61,5 +61,5 @@
   @keyframes dot-up-down {
     66%{transform: translateY(-40%);}
     100%{transform: translateY(0%);}
-  }
+  } 
   
