@@ -1,0 +1,24 @@
+.circle {
+  width: 200px;
+  height:200px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  background-color: black;
+  color: white;
+}
+
+.circular {
+  width: 80px;
+  height:80px;
+  color: white;
+  border: 10px solid currentColor;
+  border-color: white transparent white transparent;
+  border-radius: 50%;
+  animation: rotate-around 2s infinite;
+}
+
+@keyframes rotate-around {
+  0% {transform: rotate(0deg)}
+  100%{transform: rotate(360deg)}
+}
